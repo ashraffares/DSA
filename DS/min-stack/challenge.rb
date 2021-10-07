@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class Node
   attr_accessor :value, :next_node
 
@@ -18,9 +20,7 @@ class Stack
     else
       temp = @head
       @head = Node.new(number, temp)
-      if @headmin.value > @head.value
-        @headmin = Node.new(number, temp)
-      end
+      @headmin = Node.new(number, temp) if @headmin.value > @head.value
     end
   end
 

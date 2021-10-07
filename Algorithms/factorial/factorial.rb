@@ -1,10 +1,12 @@
+# frozen_string_literal: true
+
 puts 'Find factorial of: '
 
 factorial = gets
 factorial = factorial.to_i
 until factorial
-    puts 'Find factorial of: '
-    factorial = gets
+  puts 'Find factorial of: '
+  factorial = gets
 end
 
 def fact(num)

@@ -1,5 +1,6 @@
-require "base64"
+# frozen_string_literal: true
 
+require 'base64'
 
 encoded_data = "cmVxdWlyZSAnLi9jaGFsbGVuZ2UucmInCgpSU3BlYy5kZXNjcmliZSAnVW5p
 dFRlc3RzJyBkbwoKICAKICBpdCAncHVzaF9hbmRfcG9wJyBkbwogICAgIyBG
